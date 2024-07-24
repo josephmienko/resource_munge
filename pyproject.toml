@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "resourcemunge"
+version = "0.1.0"
+description = "A module to help create pandoc html templates based on existing web resources that can be accessed and saved locally using wget."
+authors = ["Joseph A. Mienko <josephanthonymienko@gmail.com>"]
+license = "GPL3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+bs4 = "^0.0.2"
+PyYAML = "^6.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
